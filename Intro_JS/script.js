@@ -48,3 +48,16 @@ console.log(v1.length)
 v1[2] = 'abc'
 console.log(v1.length)
 console.log(v1)
+
+//funções
+//definição
+function hello(){
+    console.log("oi")
+}
+//chamada
+hello()
+
+function hello(nome){
+    console.log("oi," + nome);
+}
+hello('Pedro')
